@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissor!!!</title>
+    <link rel="stylesheet" href="project1.css">
+    
+</head>
+<body>
+    <h1 class="title">Rock Paper & Scissor!!!</h1>
+    <label>Playing For</label>
+    <select id="winlimit">
+        <option>3</option>
+        <option>5</option>
+        <option>7</option>
+        <option>9</option>
+        <option>11</option>
+        <option>13</option>
+        <option>15</option>
+    </select>
+    <h3 >
+        <pre>ScoreBoard</pre>
+        <span id="p1">0</span>vs<span id="p2">0</span>
+    </h3>
+    <h4 id="h4"></h4>
+    <div class="playground">
+        <div id="lcontainer">
+            <button id="rock" class="box">
+                <img src="download.jpg">
+                
+            </button>
+            <button id="paper" class="box">
+                <img src="images.jpg">
+            </button>
+            <button id="scissor" class="box">
+                <img src="scissors.png">
+            </button>
+        </div>
+        <div class="result">
+            <div class="res1">
+                <p>You Chose <span id="selectword"></span></p>
+                <img id="selectimage">
+            </div>
+        </div>
+        <div id="Go">
+            <button id="reeset" style="background-color: blue;width: 200px;border-radius: 10px;border: 1px solid white;color: white;font-weight: 200;">Reset</button>
+            <button id="GoB" style="background-color: blue;width: 200px;border-radius: 10px;border: 1px solid white;color: white;font-weight: 200;">GO</button>
+        </div>
+        <div class="result">
+            <div class="res1">
+                <p>Computer Choice <span id="Cselectword"></span></p>
+                <img id="Cselectimage">
+            </div>
+        </div>
+    </div>
+    
+    <script src="project1.js"></script>
+</body>
+</html>
